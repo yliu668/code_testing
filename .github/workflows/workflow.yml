@@ -22,5 +22,6 @@ jobs:
       - name: Install dependencies
         run: |
           install.packages('testthat')
+        shell: Rscript {0}
       - name: run test2.R script
         run: Rscript "test2.R"
