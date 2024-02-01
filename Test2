@@ -1,1 +1,5 @@
-greet("Hello fellow Bonn enjoyers")
+greet <- function (name) {
+return (paste ("Hello", as.character(name),sep= " "))
+}
+
+# greet("Hello fellow Bonn enjoyers")
