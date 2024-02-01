@@ -21,7 +21,6 @@ jobs:
           r-version: "4.3"
       - name: Install dependencies
         run: |
-          install.packages("testthat")
-          remotes::install_deps(dependencies = TRUE)
+          install.packages('testthat')
       - name: run test2.R script
         run: Rscript "test2.R"
